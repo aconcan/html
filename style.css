@@ -1,0 +1,13 @@
+    .header-1{
+        color:blue;
+    }
+    
+    /*rgb selectors*/
+    #paragraph-1{
+        color: rgb(217, 54, 49);
+    }
+
+    /*hex code*/
+    #paragraph-2{
+        color: #28ac5c;
+    }
