@@ -3,29 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mood menu</title>
-    
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <link href='style.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<h1 class="header-1">mood menu</h1>
-<h3> may i take your order</h3>
 <body>
     <div class="nav-head">
         <a href='index.html'>home</a>
         <a href='/Users/aimee/downloads/code/foundations/html/read.html'>behind</a>
         <a href='/Users/aimee/downloads/code/foundations/html/toread.html'>ahead</a>
     </div>
-    <br>
+    
+    <img src='news.jpg'>
 
-    <img src="/Users/aimee/downloads/code/foundations/html/milk.jpg", width='500'>
+    <h3>welcome to the newsroom</h3>
+    
+    <form action='index.html' method='get'>
+        
+        <div class='form-element'>
+            <label for='name'> name : </label>
+            <input type='text' name='name' id='name' required>
+        </div> 
+       
+        <div class='form-element'>
+            <label for='email'> email : </label>
+            <input type='email' name='email' id='email' required>
+        </div>
+        
+        <div class='form-element'>
+            <button data-test="toggle-button">subscribe</button>
+        </div>
+    
+    </form>
 
     
-    <!-- button example
-        <input type="text" maxlength="8">
-    <button data-test="toggle-button">button</button> -->
-   
     <footer id="footer">
         <p>&copy; aimée concannon · 
             <a href="mailto:aimee@stripe.com">email · </a>
@@ -34,6 +47,5 @@
             <a href="https://www.linkedin.com/in/aimeeconcannon/">linkedin</a>
         </p>
     </footer>
-
 </body>
 </html>

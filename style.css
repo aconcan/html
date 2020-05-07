@@ -1,13 +1,106 @@
-    .header-1{
-        color:blue;
-    }
-    
-    /*rgb selectors*/
-    #paragraph-1{
-        color: rgb(217, 54, 49);
+    html {
+        font-family: 'Jost', sans-serif;
     }
 
-    /*hex code*/
-    #paragraph-2{
-        color: #28ac5c;
+    h1 {
+        margin: 0;
+        padding: 20px 0;
+        color: #00539F;
+        /*text-shadow: 4px 4px 2px black;*/
+        text-align: center;
+      }
+
+    .header-1{
+        color:black;
+        font-size: 60px;
+        text-align: center;
     }
+    
+    body {
+        width: 650px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 0 20px 20px 20px;
+        border: 0px solid black;
+
+        font-size: 15px;
+      }
+
+    #page-container{
+        position: relative;
+        min-height: 100vh;
+    }
+    
+    #content-wrap{
+        padding-bottom: 2.5rem;    /* Footer height */
+    }
+
+    #footer{
+        position: absolute;
+        bottom: 0;
+        /* width: 100%; */
+        height: 2.5rem;            /* Footer height */
+        text-align: center;
+      }
+
+    #paragraph-1{
+        font-size: 80;
+        text-align: center;
+    }
+
+    #paragraph-2{
+        font-size: 30;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+      }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    a:visited{
+        color: #990033;
+    }
+
+    div.nav-head{
+        float: center;
+        text-align: center;
+        padding: 18px 50px;
+        font-size: 17px;
+        
+        /* float: left; */
+        /* padding: 20px 0;
+        outline: 2px;
+        text-align: center;
+        border: 2px;
+        height: 50px; */
+        /* overflow: hidden; */
+    }
+
+    div.nav-head a {
+        padding: 10px 50px;
+        color: black; 
+      }
+
+    div.nav-head a:hover {
+        background:black;
+        color: white;
+      }
+      
+    .book-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+       
+    .grid__item {
+        width: 100%;
+        height: 200px;
+        background: skyblue;
+    }
+    
+      
